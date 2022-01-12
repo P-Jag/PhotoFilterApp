@@ -21,7 +21,7 @@
                                 <rect key="frame" x="0.0" y="88" width="414" height="717"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8AY-m2-nxs">
-                                <rect key="frame" x="160" y="822" width="94" height="28.5"/>
+                                <rect key="frame" x="157" y="822" width="94" height="28.5"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Apply Filter">
                                     <fontDescription key="titleFontDescription" type="boldSystem" pointSize="0.0"/>
@@ -31,13 +31,12 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="8AY-m2-nxs" secondAttribute="trailing" symbolic="YES" id="2bF-zf-JSk"/>
                             <constraint firstItem="BkP-Tk-KUs" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="A5z-0Z-vhN"/>
                             <constraint firstItem="BkP-Tk-KUs" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="CvB-JZ-BNv"/>
-                            <constraint firstItem="8AY-m2-nxs" firstAttribute="top" secondItem="BkP-Tk-KUs" secondAttribute="bottom" constant="17" id="DtD-4M-Wb4"/>
                             <constraint firstItem="BkP-Tk-KUs" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.8" id="Uij-X3-T8g"/>
+                            <constraint firstItem="8AY-m2-nxs" firstAttribute="top" secondItem="BkP-Tk-KUs" secondAttribute="bottom" constant="17" id="V3y-QY-1Gx"/>
+                            <constraint firstItem="8AY-m2-nxs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="157" id="VOL-u7-mqV"/>
                             <constraint firstItem="BkP-Tk-KUs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ctt-Va-kpI"/>
-                            <constraint firstItem="8AY-m2-nxs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="160" id="el2-z8-wzd"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Camera Filter" id="zD3-Hf-Yr0">
